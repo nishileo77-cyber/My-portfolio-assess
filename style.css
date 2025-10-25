@@ -1,0 +1,297 @@
+/* General Styles */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  font-family: 'Poppins', sans-serif;
+
+  background: #f8f9fa;
+
+  color: #333;
+
+  scroll-behavior: smooth;
+
+}
+
+/* Header */
+
+header {
+
+  background: #222;
+
+  color: white;
+
+  padding: 1rem 2rem;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 1000;
+
+}
+
+.logo {
+
+  font-size: 1.5rem;
+
+  font-weight: bold;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.nav-links {
+
+  list-style: none;
+
+  display: flex;
+
+  gap: 20px;
+
+}
+
+.nav-links a {
+
+  color: white;
+
+  text-decoration: none;
+
+  transition: color 0.3s;
+
+}
+
+.nav-links a:hover {
+
+  color: #ff9800;
+
+}
+
+/* Sections */
+
+.section {
+
+  padding: 80px 10%;
+
+  text-align: center;
+
+}
+
+.section h2 {
+
+  font-size: 2rem;
+
+  margin-bottom: 30px;
+
+  color: #222;
+
+}
+
+/* Home Section */
+
+.home {
+
+  background: linear-gradient(120deg, #74ebd5, #acb6e5);
+
+  color: white;
+
+  height: 100vh;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.home .content h2 {
+
+  font-size: 2.5rem;
+
+}
+
+.home button {
+
+  background: #fff;
+
+  border: none;
+
+  padding: 10px 20px;
+
+  margin-top: 20px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  font-weight: bold;
+
+  transition: 0.3s;
+
+}
+
+.home button:hover {
+
+  background: #222;
+
+  color: white;
+
+}
+
+/* Skills */
+
+.skills-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+}
+
+.skill-card {
+
+  background: #fff;
+
+  padding: 20px 40px;
+
+  border-radius: 8px;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+
+  font-weight: bold;
+
+  transition: transform 0.3s;
+
+}
+
+.skill-card:hover {
+
+  transform: scale(1.1);
+
+}
+
+/* Projects */
+
+.projects-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+}
+
+.project-card {
+
+  background: #fff;
+
+  padding: 20px;
+
+  width: 250px;
+
+  border-radius: 10px;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+
+  transition: 0.3s;
+
+}
+
+.project-card:hover {
+
+  transform: translateY(-5px);
+
+  background: #ff9800;
+
+  color: white;
+
+}
+
+/* Contact */
+
+.contact form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+
+  max-width: 400px;
+
+  margin: 0 auto;
+
+}
+
+.contact input,
+
+.contact textarea {
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  border: 1px solid #ccc;
+
+}
+
+.contact button {
+
+  background: #222;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+.contact button:hover {
+
+  background: #ff9800;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #222;
+
+  color: white;
+
+  text-align: center;
+
+  padding: 1rem;
+
+}
